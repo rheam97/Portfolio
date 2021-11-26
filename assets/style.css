@@ -58,16 +58,22 @@ header nav ul li a {
 }
 .content-heading {
     margin: 50px 50px;
-    padding: 50px 0 50px, 50px;
-    border-right: solid 1px black;
+    padding: 50px 0 50px 50px;
+    width: 25%;
 }
 .summary {
     display: flex;
     align-items: center;
     flex-wrap:wrap;
+    border-left: solid 1px black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
 }
 /*work style start*/
 .work-links {
+    border-left: solid 1px black;
+    padding: 10px 15px;
+    margin-bottom: 15px;
 
 }
 .work-title {
@@ -79,11 +85,14 @@ header nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-left: solid 1px black;
 }
-.contact-links ul li {
+.contact-links h4 {
+    padding: 10px 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
 /*contact style end*/
