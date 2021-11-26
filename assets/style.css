@@ -1,0 +1,55 @@
+/*header style start*/
+header {
+
+}
+header h1 {
+
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+/*header style end*/
+
+/*hero style start*/
+.hero {
+
+}
+/*hero sub style start*/
+.hero-sub {
+
+}
+/*hero sub style end*/
+/*hero style end*/
+
+/*content style start*/
+.content {
+
+}
+.content-heading {
+
+}
+/*work style start*/
+.work-links {
+
+}
+.work-title {
+
+}
+/*work style end*/
+/*contact style start*/
+.contact-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+}
+/*contact style end*/
+/*content style end*/
+
+/*footer style start*/
+/*footer style end*/
