@@ -1,5 +1,7 @@
 :root {
-
+--primary-color:var(--primary-color);
+--secondary-color:var(--secondary-color);
+--tertiary-color:var(--tertiary-color);
 }
 * {
     margin: 0;
@@ -19,6 +21,17 @@ header {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: black;
+    color: white;
+   
+}
+
+header div {
+    background-color: white;
+    color: black;
+    border: black, solid, 1px;
+    height: 80%;
+
 }
 header h1 {
     margin: 0;
@@ -38,16 +51,26 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 2.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 /*header style end*/
 
 /*hero style start*/
 .hero {
+    background-image:url("../assets/images/roozbeh-eslami-YlVjrBkfXt8-unsplash.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:flex-end;
+    background-size: cover;
+}
+.avatar {
 
 }
 /*hero sub style start*/
 .hero-sub {
-
+    width: 30%;
+    background-color: white;
 }
 /*hero sub style end*/
 /*hero style end*/
@@ -57,9 +80,11 @@ header nav ul li a {
     display: flex;
 }
 .content-heading {
-    margin: 50px 35px;
-    padding: 50px 0 50px 50px;
+    margin: 50px 45px;
+    padding: 50px 50px;
     width: 15%;
+    background-color: white;
+    color: black;
 }
 .summary {
     display: flex;
@@ -76,6 +101,12 @@ header nav ul li a {
     margin-bottom: 15px;
 
 }
+.feature {
+
+}
+.not-feature {
+
+}
 .work-title {
 
 }
@@ -86,6 +117,7 @@ header nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
     border-left: solid 1px black;
+    margin-bottom: 20px;
 }
 .contact-links h4 {
     padding: 10px 15px;
