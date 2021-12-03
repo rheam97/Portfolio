@@ -22,6 +22,7 @@ header {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: column;
     background-color: black;
     color: white; 
     height: 5vw;
@@ -45,12 +46,12 @@ header a {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     margin-top: 10px;
     align-items: center;
-    justify-content: space-evenly;
 }
+
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
@@ -109,7 +110,7 @@ header nav ul li a {
 .work-links {
     border-left: solid 5px white;
     padding: 10px 15px ;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-right: 0;
     display: flex;
     flex-wrap: wrap;
@@ -120,21 +121,17 @@ header nav ul li a {
 }
 .feature {
     border: white solid, 3px;
-    height: 50%;
+    height: 40%;
     width: 90%;
-    display: flex;
-    align-items: flex-end;
-    justify-content:start;
+
 
 }
 .not-feature {
     border: white solid, 3px;
-    display: flex;
-    align-items: flex-start;
-    justify-content:start;
+
 }
-iframe {
-    box-sizing: border-box;
+.work-links iframe {
+    box-sizing: content-box;
 }
 .work-title {
     background-color: orange;
@@ -172,9 +169,34 @@ iframe {
 
 /*footer style start*/
 /*footer style end*/
-@media screen {
-
+@media screen and (max-width: 575px) {
+header {
+     height: auto;
+     margin: 0 auto;
+ }
+header div {
+     text-align: center;
+ }
+header nav ul {
+    flex-direction: column;
+    margin: 0 auto;
 }
-@media screen {
+ .hero {
+     width: 100%;
+ }
+ .hero-sub {
+    flex: (0, 0, auto);
+ }
+.content-heading {
+    text-align: left;
+}
+.content {
     
+}
+ .work-links {
+     flex-direction: column;
+ }
+ .contact-links {
+     flex-direction: column;
+ }
 }
