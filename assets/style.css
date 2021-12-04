@@ -20,10 +20,10 @@ h1, h2, h3, h4, h5, h6, li {
 /*header style start*/
 header {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: column;
     background-color: black;
+    flex-direction: column;
     color: white; 
     height: 5vw;
    
@@ -35,14 +35,11 @@ header div {
     border: black, solid, 1px;
     height: 80%;
     margin-top: 5px;
-
 }
 header h1 {
     margin: 0;
 }
-header a {
-    text-decoration: none;
-}
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -58,8 +55,12 @@ header nav ul li a {
     font-size: 2.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: white;
+    text-decoration: none;
+}
 
-    
+header nav ul a:hover {
+    background-color: white;
+    color: black;
 }
 /*header style end*/
 
@@ -92,6 +93,14 @@ header nav ul li a {
     display: flex;
     margin: 20px 0;
 }
+
+.content-links {
+    display: flex;
+    margin: 20px 0;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+}
 .content-heading {
     margin: 50px 45px;
     padding: 50px 50px;
@@ -122,16 +131,17 @@ header nav ul li a {
 .feature {
     border: white solid, 3px;
     height: 40%;
-    width: 90%;
-
+    width: 95%;
+    background-image: url("../assets/images/Screen Shot 2021-12-03 at 11.47.05 PM.png");
+    background-size: cover;
 
 }
-.not-feature {
+.not-feature1 {
     border: white solid, 3px;
+    background-image: url("../assets/images/horiseon-header-hero.png");
+    background-size: cover;
+    height: 20%;
 
-}
-.work-links iframe {
-    box-sizing: content-box;
 }
 .work-title {
     background-color: orange;
@@ -178,8 +188,9 @@ header div {
      text-align: center;
  }
 header nav ul {
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
+    font-size: 18px;
 }
  .hero {
      width: 100%;
@@ -189,14 +200,23 @@ header nav ul {
  }
 .content-heading {
     text-align: left;
+    box-sizing: content-box;
+    margin-left: 0vw;
+    width: 5%;
 }
-.content {
-    
+.summary {
+    font-size: 12px;
 }
  .work-links {
      flex-direction: column;
  }
+ .work-title {
+     font-size: 12px;
+ }
  .contact-links {
      flex-direction: column;
+ }
+ .contact-links h4 a {
+     font-size: 15px;
  }
 }
