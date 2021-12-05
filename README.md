@@ -17,7 +17,7 @@ With these points in mind, in this Challenge you’ll set yourself up for future
 <a name="process"> </a>
 I wanted the site to relfect my understanding of CSS syntax and properties, so I decided to base it off of some elements of a stylesheet. i went with the coclors black, white, and orange because i prefer darker webpages and i wanted to add a little bit of warmth and color to some of the CSS states I wrote. I based this pilot version of my portfolio off of the mock-up to include the navigation with hover properties that is responsive to changes in screen width between computers and mobile devices (576px). I also created my own hero using free stock images and my own avatar. I then filled in the rest of the sections in the body which can be navigated to from the header. I made sure my work links had an image of the site depicted and also contained hover states that change the border and the opacity. I added hover states to the contact links as well. I made sure both of these elements are mobile responsive using flex properties and media queries. 
 
-```
+
 <a name= "usage"></a>
 ## Acceptance Criteria
 
