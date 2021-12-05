@@ -1,26 +1,24 @@
 # Portfolio
 my own constructed web portfolio using semantic HTML and advanced CSS
 
-# 02 Advanced CSS: Portfolio
+# Table of Contents
+* [Project Description](#desc)
+* [How I Made It](#process)
+* [Usage](#usage)
+* [URL](#URL)
 
-Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
+<a name= "desc"></a>
+## 02 Advanced CSS: Portfolio
 
 A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: at many companies, having several deployed projects is a minimum requirement to receive an initial interview. 
 
 With these points in mind, in this Challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you'll use during your job search. It’s a win-win that you'll likely be grateful for in the future!
 
-**Note**: If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
-
-Let’s look at what a user story written from the perspective of a hiring manager might look like. As you might remember, we follow the AS AN / I WANT / SO THAT format.
-
-## User Story
+<a name="process"> </a>
+I wanted the site to relfect my understanding of CSS syntax and properties, so I decided to base it off of some elements of a stylesheet. i went with the coclors black, white, and orange because i prefer darker webpages and i wanted to add a little bit of warmth and color to some of the CSS states I wrote. I based this pilot version of my portfolio off of the mock-up to include the navigation with hover properties that is responsive to changes in screen width between computers and mobile devices (576px). I also created my own hero using free stock images and my own avatar. I then filled in the rest of the sections in the body which can be navigated to from the header. I made sure my work links had an image of the site depicted and also contained hover states that change the border and the opacity. I added hover states to the contact links as well. I made sure both of these elements are mobile responsive using flex properties and media queries. 
 
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
-
+<a name= "usage"></a>
 ## Acceptance Criteria
 
 ```
@@ -39,13 +37,12 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-The following animation shows the web application's appearance and functionality:
+The following screenshots show the web application's appearance:
+![header and hero]()
+![content]()
+![content]()
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-## Review
-
-You are required to submit BOTH of the following for review:
+<a name= "URL"></a>
 
 * The URL of the deployed application.
 
