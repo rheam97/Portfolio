@@ -108,6 +108,7 @@ header nav ul a:hover {
     margin: 40px;
     width: 15%;
     color: var(--secondary-color);
+    margin-left: 5vw;
 }
 .summary {
     border-left: solid 5px var(--secondary-color);
