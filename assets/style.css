@@ -105,8 +105,7 @@ header nav ul a:hover {
     height: 60vw;
 }
 .content-heading {
-    margin: 50px 45px;
-    padding: 50px 50px;
+    margin: 40px;
     width: 15%;
     color: var(--secondary-color);
 }
@@ -117,6 +116,7 @@ header nav ul a:hover {
     align-items: center;
     display: flex;
     color: var(--secondary-color);
+    width: 100%;
 }
 .summary:hover {
     color: var(--tertiary-color);
@@ -190,10 +190,11 @@ header nav ul a:hover {
 /*contact style start*/
 .contact-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     border-left: solid 5px var(--secondary-color);
-    margin-bottom: 20px;
+    width: 100%;
+    
 }
 .contact-links h4 {
     padding: 10px 35px;
@@ -241,6 +242,7 @@ header nav ul {
     box-sizing: content-box;
     margin-left: 0vw;
     width: 5%;
+    padding: 10vw 11vw;
 }
 .summary {
     font-size: 12px;
