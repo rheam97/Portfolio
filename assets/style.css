@@ -35,9 +35,12 @@ header div {
     border: var(--primary-color), solid, 1px;
     height: 80%;
     margin-top: 5px;
+   
 }
 header h1 {
     margin: 0;
+    font-size: 36px;
+   
 }
 
 header nav ul {
@@ -182,14 +185,14 @@ header nav ul a:hover {
     overflow:scroll;
 
 }
-.work-title:
+
 /*work style end*/
 /*contact style start*/
 .contact-links {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-left: solid 5px white;
+    border-left: solid 5px var(--secondary-color);
     margin-bottom: 20px;
 }
 .contact-links h4 {
