@@ -39,9 +39,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 The following screenshots show the web application's appearance:
-![header and hero](assets/images/headerhero.png)
-![content](assets/images/content1.png)
-![content](assets/images/content2.png)
+![header and hero](headerhero.png)
+![content](content1.png)
+![content](content2.png)
 
 <a name= "URL"></a>
 ## URLs
