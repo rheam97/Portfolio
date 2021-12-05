@@ -39,9 +39,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 The following screenshots show the web application's appearance:
-![header and hero](assets/images/Screen Shot 2021-12-05 at 2.04.25 PM.png)
-![content](assets/images/Screen Shot 2021-12-05 at 2.04.38 PM.png)
-![content](assets/images/Screen Shot 2021-12-05 at 2.04.46 PM.png)
+![header-and-hero]("./assets/images/Screen Shot 2021-12-05 at 2.04.25 PM.png "Header and Hero")
+![content]("./assets/images/Screen Shot 2021-12-05 at 2.04.38 PM.png "first half of content")
+![content]("./assets/images/Screen Shot 2021-12-05 at 2.04.46 PM.png "second half of content")
 
 <a name= "URL"></a>
 ## URLs
