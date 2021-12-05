@@ -1,5 +1,5 @@
 # Portfolio
-my own constructed web portfolio using semantic HTML and advanced CSS
+My own constructed web portfolio using semantic HTML and advanced CSS.
 
 # Table of Contents
 * [Project Description](#desc)
@@ -39,9 +39,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
 The following screenshots show the web application's appearance:
-![header and hero](assets/images/Screen Shot 2021-12-05 at 2.04.25 PM.png)
-![content](assets/images/Screen Shot 2021-12-05 at 2.04.38 PM.png)
-![content](assets/images/Screen Shot 2021-12-05 at 2.04.46 PM.png)
+![header and hero](assets/images/headerhero.png)
+![content](assets/images/content1.png)
+![content](assets/images/content2.png)
 
 <a name= "URL"></a>
 ## URLs
