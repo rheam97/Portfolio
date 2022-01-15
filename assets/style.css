@@ -1,260 +1,293 @@
 :root {
---primary-color:black;
---secondary-color:white;
---tertiary-color:orange;
-}
-* {
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-}
-body {
-    font-family: "Consolas", monospace;
-    background-color: var(--primary-color);;
-}
-h1, h2, h3, h4, h5, h6, li {
-    font-family: "Consolas", monospace;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-/*header style start*/
-header {
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color: var(--primary-color);
-    flex-direction: column;
-    color: var(--secondary-color); 
-    height: 5vw;
-   
-}
-
-header div {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    border: var(--primary-color), solid, 1px;
-    height: 80%;
-    margin-top: 5px;
-   
-}
-header h1 {
-    margin: 0;
-    font-size: 36px;
-   
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style: none;
-    margin-top: 10px;
-    align-items: center;
-}
-
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 2.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-header nav ul a:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-}
-/*header style end*/
-
-/*hero style start*/
-.hero {
-    background-image:url("../assets/images/roozbeh-eslami-YlVjrBkfXt8-unsplash.jpg");
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content:flex-end;
-    background-size: cover;
-    width: 100vw;
-    height: 30vw;
-    z-index: -1;
-}
-.avatar {
-    height: 80%;
-}
-/*hero sub style start*/
-.hero-sub {
-    width: 30%;
-    background-color: var(--secondary-color);
-    margin-bottom: 30px;
-}
-/*hero sub style end*/
-/*hero style end*/
-
-/*content style start*/
-.content {
-    display: flex;
-    margin: 20px 0;
-}
-
-.content-links {
-    display: flex;
-    margin: 20px 0;
-    overflow: scroll;
-    width: 100%;
-    height: 60vw;
-}
-.content-heading {
-    margin: 40px;
-    width: 15%;
-    color: var(--secondary-color);
-    margin-left: 5vw;
-}
-.summary {
-    border-left: solid 5px var(--secondary-color);
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    align-items: center;
-    display: flex;
-    color: var(--secondary-color);
-    width: 100%;
-}
-.summary:hover {
-    color: var(--tertiary-color);
-}
-/*work style start*/
-.work-links  {
-    border-left: solid 5px var(--secondary-color);
-    padding: 10px 15px ;
-    margin-bottom: 30px;
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 60vw;
+    --primary-color:black;
+    --secondary-color:white;
+    --tertiary-color:orange;
+    }
+    * {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: "Consolas", monospace;
+        background-color: var(--primary-color);;
+    }
+    h1, h2, h3, h4, h5, h6, li {
+        font-family: "Consolas", monospace;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    /*header style start*/
+    header {
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background-color: var(--primary-color);
+        flex-direction: column;
+        color: var(--secondary-color); 
+        height: 5vw;
+       
+    }
     
-}
-
-.feature {
-    border: var(--secondary-color) solid, 3px;
-    height: 60%;
-    width: 95%;
-    border:ivory 1px solid;
-    margin-bottom: 3px;
-    background-image: url("../assets/images/Screen Shot 2021-12-03 at 11.47.05 PM.png");
-    background-size: cover;
-    background-position: 80%;
-}
-.not-feature1 {
-    border: ivory solid 3px;
-    height: 40%;
-    width: 46%;
-    background-image: url("../assets/images/horiseon-header-hero.png");
-    background-size: cover;
-    background-position: 80%;
-
-}
-.not-feature {
-    width: 46%;
-    height: 40%;
-    border: ivory solid 3px;
-    background-image:url() ;
-    background-size: cover;
-    background-position: 80%;
-}
-
-.feature:hover {
-    opacity: 0.5;
-    border: var(--tertiary-color) solid 3px;
-}
-
-.not-feature1:hover {
-    opacity: 0.5;
-    border: var(--tertiary-color) solid 3px;
-}
-.not-feature:hover {
-    opacity: 0.5;
-    border: var(--tertiary-color) solid 3px;
-}
-.work-title {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    border: var(--secondary-color) solid 1px;
-    width: 40%;
-    height: 15%;
-    overflow:scroll;
-
-}
-
-/*work style end*/
-/*contact style start*/
-.contact-links {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    border-left: solid 5px var(--secondary-color);
-    width: 100%;
+    header div {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border: var(--primary-color), solid, 1px;
+        height: 80%;
+        margin-top: 5px;
+       
+    }
+    header h1 {
+        margin: 0;
+        font-size: 36px;
+       
+    }
     
-}
-.contact-links h4 {
-    padding: 10px 35px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    color: var(--secondary-color);
-}
-.contact-links h4 a {
-    color:var(--secondary-color);
-    font-size: 18px;
-    font-weight: bolder;
-}
-.contact-links h4 a:hover {
-    color: var(--tertiary-color);
-}
-/*contact style end*/
-/*content style end*/
-
-/*footer style start*/
-/*footer style end*/
-@media screen and (max-width: 575px) {
-header {
-     height: auto;
-     margin: 0 auto;
- }
-header div {
-     text-align: center;
- }
-header nav ul {
-    flex-direction: row;
-    margin: 0 auto;
-    font-size: 18px;
-}
- .hero {
-     width: 100%;
- }
- .hero-sub {
-    flex: (0, 0, auto);
- }
-.content-heading {
-    text-align: left;
-    box-sizing: content-box;
-    margin-left: 0vw;
-    width: 5%;
-    padding: 10vw 11vw;
-}
-.summary {
-    font-size: 12px;
-}
- .work-title {
-     font-size: 12px;
- }
- .contact-links {
-     flex-direction: column;
- }
- .contact-links h4 a {
-     font-size: 15px;
- }
-}
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style: none;
+        margin-top: 10px;
+        align-items: center;
+    }
+    
+    header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 2.55vw;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+    
+    header nav ul a:hover {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+    }
+    /*header style end*/
+    
+    /*hero style start*/
+    .hero {
+        background-image:url("../assets/images/roozbeh-eslami-YlVjrBkfXt8-unsplash.jpg");
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content:flex-end;
+        background-size: cover;
+        width: 100vw;
+        height: 30vw;
+        z-index: -1;
+    }
+    .avatar {
+        height: 80%;
+    }
+    /*hero sub style start*/
+    .hero-sub {
+        width: 30%;
+        background-color: var(--secondary-color);
+        margin-bottom: 30px;
+    }
+    /*hero sub style end*/
+    /*hero style end*/
+    
+    /*content style start*/
+    .content {
+        display: flex;
+        margin: 20px 0;
+    }
+    
+    .content-links {
+        display: flex;
+        margin: 20px 0;
+        overflow: scroll;
+        width: 100%;
+        height: 60vw;
+    }
+    .content-heading {
+        margin: 40px;
+        width: 15%;
+        color: var(--secondary-color);
+        margin-left: 5vw;
+    }
+    .summary {
+        border-left: solid 5px var(--secondary-color);
+        padding: 10px 15px;
+        margin-bottom: 15px;
+        align-items: center;
+        display: flex;
+        color: var(--secondary-color);
+        width: 100%;
+    }
+    .summary:hover {
+        color: var(--tertiary-color);
+    }
+    /*work style start*/
+    .work-links  {
+        border-left: solid 5px var(--secondary-color);
+        padding: 10px 15px ;
+        margin-bottom: 30px;
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 60vw;
+        
+    }
+    
+    .feature {
+        border: var(--tertiary-color) solid 3px;
+        height: 60%;
+        width: 95%;
+        margin-bottom: 5px;
+        background-image: url("../assets/images/Screen Shot 2022-01-14 at 9.49.59 PM.png");
+        background-size: cover;
+        background-position: 80%;
+    }
+    .not-feature1 {
+        border:var(--tertiary-color) solid 3px;
+        height: 40%;
+        width: 46%;
+        background-image: url("../assets/images/workdayscheduler.gif");
+        background-size: cover;
+        background-position: 80%;
+        margin-bottom: 5px;
+        
+    
+    }
+    .not-feature {
+        width: 46%;
+        height: 40%;
+        border: var(--tertiary-color) solid 3px;
+        background-image:url("../assets/images/weatherdashboard 2.gif") ;
+        background-size: cover;
+        background-position: 80%;
+        margin-bottom: 5px;
+    }
+    
+    .not-feature2 {
+        border: var(--tertiary-color) solid 3px;
+        height: 40%;
+        width: 46%;
+        background-image: url("../assets/images/Screen Shot 2022-01-14 at 10.07.05 PM.png");
+        background-size: cover;
+        background-position: 80%;
+        margin-bottom: 5px;
+    
+    }
+    .not-feature3 {
+        border: var(--tertiary-color)solid 3px;
+        height: 40%;
+        width: 46%;
+        background-image: url("../assets/images/appimage.png");
+        background-size: cover;
+        background-position: 80%;
+        margin-bottom: 5px;
+    
+    }
+    
+    .feature:hover {
+        opacity: 0.5;
+        border: blue solid 3px;
+    }
+    
+    .not-feature1:hover {
+        opacity: 0.5;
+        border: blue solid 3px;
+    }
+    .not-feature:hover {
+        opacity: 0.5;
+        border: blue solid 3px;
+    }
+    .not-feature2:hover {
+        opacity: 0.5;
+        border: blue solid 3px;
+    }
+    .not-feature3:hover {
+        opacity: 0.5;
+        border: blue solid 3px;
+    }
+    
+    .work-title {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border: var(--secondary-color) solid 1px;
+        width: 40%;
+        height: 15%;
+        overflow:scroll;
+    
+    }
+    
+    /*work style end*/
+    /*contact style start*/
+    .contact-links {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        border-left: solid 5px var(--secondary-color);
+        width: 100%;
+        
+    }
+    .contact-links h4 {
+        padding: 10px 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        color: var(--secondary-color);
+    }
+    .contact-links h4 a {
+        color:var(--secondary-color);
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .contact-links h4 a:hover {
+        color: var(--tertiary-color);
+    }
+    /*contact style end*/
+    /*content style end*/
+    
+    /*footer style start*/
+    /*footer style end*/
+    @media screen and (max-width: 575px) {
+    header {
+         height: auto;
+         margin: 0 auto;
+     }
+    header div {
+         text-align: center;
+     }
+    header nav ul {
+        flex-direction: row;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+     .hero {
+         width: 100%;
+     }
+     .hero-sub {
+        flex: (0, 0, auto);
+     }
+    .content-heading {
+        text-align: left;
+        box-sizing: content-box;
+        margin-left: 0vw;
+        width: 5%;
+        padding: 10vw 11vw;
+    }
+    .summary {
+        font-size: 12px;
+    }
+     .work-title {
+         font-size: 12px;
+     }
+     .contact-links {
+         flex-direction: column;
+     }
+     .contact-links h4 a {
+         font-size: 15px;
+     }
+    }
+    
