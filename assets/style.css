@@ -160,7 +160,7 @@
         width: 46%;
         height: 40%;
         border: var(--tertiary-color) solid 3px;
-        background-image:url("../assets/images/weatherdashboard 2.gif") ;
+        background-image:url("../assets/images/sqlcms.png") ;
         background-size: cover;
         background-position: 80%;
         margin-bottom: 5px;
@@ -170,7 +170,7 @@
         border: var(--tertiary-color) solid 3px;
         height: 40%;
         width: 46%;
-        background-image: url("../assets/images/Screen Shot 2022-01-14 at 10.07.05 PM.png");
+        background-image: url("../assets/images/webprofile.png");
         background-size: cover;
         background-position: 80%;
         margin-bottom: 5px;
