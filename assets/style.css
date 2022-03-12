@@ -141,7 +141,7 @@
         height: 60%;
         width: 95%;
         margin-bottom: 5px;
-        background-image: url("../assets/images/Screen Shot 2022-01-14 at 9.49.59 PM.png");
+        background-image: url("../assets/images/screenshot.png");
         background-size: cover;
         background-position: 80%;
     }
@@ -149,7 +149,7 @@
         border:var(--tertiary-color) solid 3px;
         height: 40%;
         width: 46%;
-        background-image: url("../assets/images/workdayscheduler.gif");
+        background-image: url("../assets/images/sqlcms.png");
         background-size: cover;
         background-position: 80%;
         margin-bottom: 5px;
@@ -160,7 +160,7 @@
         width: 46%;
         height: 40%;
         border: var(--tertiary-color) solid 3px;
-        background-image:url("../assets/images/sqlcms.png") ;
+        background-image:url("../assets/images/Screen Shot 2022-01-14 at 9.49.59 PM.png") ;
         background-size: cover;
         background-position: 80%;
         margin-bottom: 5px;
@@ -170,7 +170,7 @@
         border: var(--tertiary-color) solid 3px;
         height: 40%;
         width: 46%;
-        background-image: url("../assets/images/webprofile.png");
+        background-image: url("../assets/images/workdayscheduler.gif");
         background-size: cover;
         background-position: 80%;
         margin-bottom: 5px;
@@ -180,7 +180,7 @@
         border: var(--tertiary-color)solid 3px;
         height: 40%;
         width: 46%;
-        background-image: url("../assets/images/appimage.png");
+        background-image: url("../assets/images/webprofile.png");
         background-size: cover;
         background-position: 80%;
         margin-bottom: 5px;
